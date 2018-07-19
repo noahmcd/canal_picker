@@ -1,0 +1,32 @@
+html body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#plot {
+    height: 45vh;
+    min-height: 160px;
+    padding-left: 0px;
+}
+
+/*.axis-y .tick line {
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+    stroke: #666;
+}*/
+
+.box, .median, .whiskerUp, .whiskerLo {
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+    stroke: #666;
+}
+
+.median {
+    stroke-width: 2px;
+}
+
+.box {
+  fill: none;
+  stroke: #666;
+}
